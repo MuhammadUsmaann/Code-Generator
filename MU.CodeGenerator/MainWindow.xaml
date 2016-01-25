@@ -1,0 +1,15 @@
+﻿<Window x:Class="CodeGenerator.MVP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+       <Grid Height="400">
+            <ComboBox Name="ddlTables" Height="25" Margin="20,13,13,0" VerticalAlignment="Top" />
+            <Button Name="btnObjectClassCreator"    Click="btnObjectClassCreator_Click" Height="25" Margin="20,60.084,12,314.915">Generate DTO Class</Button>
+            <Button Name="btnDALClassCreator"       Click="btnDALClassCreator_Click"        Height="25" Margin="20,0,13,271.827"     VerticalAlignment="Bottom">Generate DAL Class</Button>
+            <Button Name="btnDATAClassCreator"      Click="btnDATAClassCreator_Click"       Height="25" Margin="20,0,13,223.585"     VerticalAlignment="Bottom">Generate Data Class</Button>
+            <Button Name="btnPresenterClassCreator" Click="btnPresenterClassCreator_Click"  Height="25" Margin="20,0,13,14"     VerticalAlignment="Bottom">Generate Presenter Class</Button>
+            <Button Name="btnEntityClassCreator" Click="btnEntityClassCreator_Click"  Height="25" Margin="20,0,13,139.183"     VerticalAlignment="Bottom">Generate Entities</Button>
+            <Button Name="btnSerivceClassCreator" Click="btnSerivceClassCreator_Click"  Height="25" Margin="20,0,13,180.268"     VerticalAlignment="Bottom">Generate Services</Button>
+        </Grid>
+   
+</Window>
